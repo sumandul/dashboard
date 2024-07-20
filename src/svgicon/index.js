@@ -1,0 +1,21 @@
+export { default as DotSvg } from "./dot.svg";
+export { default as SupportSvg } from "./support.svg";
+export { default as DownloadSvg } from "./download.svg";
+export { default as EmployeeSvg } from "./employee.svg";
+export { default as BusinessSvg } from "./business.svg";
+export { default as SettingSvg } from "./setting.svg";
+export { default as SupportIconSvg } from "./s.svg";
+export { default as WhitedotSvg } from "./dortwhite.svg";
+export { default as Prev1Svg } from "./prev1.svg";
+export { default as Prev2Svg } from "./prev2.svg";
+export { default as Prev3Svg } from "./prev3.svg";
+export { default as NextSvg } from "./next.svg";
+export { default as LogOutSvg } from "./logout.svg";
+export { default as SearchSvg } from "./search.svg";
+export { default as LogoSvg } from "./logo.svg";
+export { default as PoweredSvg } from "./powered.svg";
+export { default as PoweredTextSvg } from "./poweredText.svg";
+
+export { default as ZappBlackSvg } from "./zappBlack.svg";
+export { default as NodataSvg } from "./nodata.svg";
+export { default as ViewSvg } from "./view.svg";

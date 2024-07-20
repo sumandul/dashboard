@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+    width: 2px;
+    height: 1px;
+
+}
+ option:hover {
+  background-color:"red"!important;
+  /* color: #your-hover-text-color; */
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #ff3b9d;
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.spinner .path {
+  animation: infinity-load 1.5s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.colored-svg{
+  color: #9747ff;
+}
+
+@keyframes infinity-load {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+@layer base {
+  :root {
+    --primary-color: #ff3b9d;
+    --primary-color_opacity: rgba(254, 53, 231, 0.3);
+    --secandary-color: #9747ff;
+    --default-color: #212427;
+    --toastify-color-dark:var(--primary-color);
+    --toastify-icon-color-success: var(--secandary-color);
+    --toastify-icon-color-info:var(--secandary-color);
+    --toastify-color-progress-info:var(--secandary-color);
+    --toastify-color-progress-success:var( --secandary-color);
+    --toastify-color-success:var( --primary-color);
+    --toastify-color-error:var(--secandary-color);
+    --alpha: 0.8;
+  }
+  .theme-esewa {
+    /* --primary-color: rgb(96, 187, 70); */
+    --primary-color_opacity: rgba(96, 187, 70 0.5);
+    --secandary-color: rgb(40, 50, 60);
+    --default-color: #212427;
+  }
+  .theme-zapp {
+    --primary-color: #ff3b9d;
+    --secandary-color: rgb(195, 68, 255);
+    --default-color: #212427;
+  }
+}
